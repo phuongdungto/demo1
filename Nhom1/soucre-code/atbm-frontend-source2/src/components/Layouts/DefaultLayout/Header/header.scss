@@ -1,0 +1,131 @@
+// .header-topbar {
+//     background-color: black;
+//     text-align: center;
+// }
+
+// .header-topbar-content pre {
+//     color: yellow;
+//     font-family: futura-pt, -apple-system, blinkmacsystemfont, roboto, Helvetica Neue, arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+//     font-size: 20px;
+//     font-weight: 500;
+//     text-align: center;
+//     padding-top: 5px;
+//     padding-bottom: 2px;
+// }
+
+// pre {
+//     margin-bottom: 0px !important;
+// }
+
+// .shop-card {
+//     position: relative;
+//     padding-top: 7px;
+// }
+
+// .cart-count {
+//     position: absolute;
+//     top: 2px;
+//     right: -19px;
+//     background: yellow;
+//     width: 18px;
+//     height: 18px;
+//     line-height: 18px;
+//     text-align: center;
+//     border-radius: 50%;
+//     color: #000;
+//     font-weight: bold;
+//     font-size: 10px;
+// }
+
+
+// .profile-box {
+//     position: relative;
+// }
+
+// @mixin triangle-up2() {
+//     width: 0;
+//     height: 0;
+//     border-left: 10px solid transparent;
+//     border-right: 10px solid transparent;
+//     border-bottom: 10px solid white;
+// }
+
+// .profile-triangle {
+//     @include triangle-up2();
+//     position: absolute;
+//     z-index: 1;
+//     transition: all ease-in-out 0.4s;
+//     right: 170px;
+//     top: -0.6rem
+// }
+
+// .box-profile-body {
+//     top: 2.5rem;
+//     right: -100px;
+//     position: absolute;
+//     z-index: 5;
+//     transition: all ease 0.3s;
+//     visibility: visible;
+//     opacity: 1;
+
+//     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+// }
+
+// .box-profile-list {
+//     max-height: 20rem;
+//     width: 100%;
+//     overflow: auto;
+// }
+
+// .box-profile-item {
+//     display: flex;
+//     justify-content: left;
+//     align-items: center;
+//     padding: 1rem;
+//     border-radius: 5px;
+//     overflow: hidden;
+//     border-bottom: 1px solid rgb(240, 240, 240);
+
+//     .box-icon {
+//         width: 2rem;
+//         height: 2rem;
+//         padding: 0;
+//         border-radius: 5px;
+//         overflow: hidden;
+
+//         img {
+//             width: 100%;
+//             height: 100%;
+//             object-fit: cover;
+//         }
+//     }
+
+//     &:hover {
+//         background-color: #F5F5F5;
+//     }
+
+//     &-content {
+//         margin-left: 1rem;
+//         width: 60%;
+//         display: -webkit-box;
+//         -webkit-line-clamp: 2;
+//         -webkit-box-orient: vertical;
+//         overflow: hidden;
+//     }
+// }
+
+// .box-content-profile {
+//     position: absolute;
+//     right: 0;
+//     background-color: white;
+//     z-index: 1;
+//     overflow: hidden;
+//     border-radius: 5px;
+//     width: 200px;
+//     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+// }
+
+// .box-hiden-profile {
+//     opacity: 0;
+//     visibility: hidden;
+// }
